@@ -8,7 +8,7 @@ class YtestContainer {
         PrintStrategy print_strat = PrintStrategy::FailuresOnly;
     };
 
-    static inline auto& config() {
+    static inline Config& config() {
         static Config config;
         return config;
     }

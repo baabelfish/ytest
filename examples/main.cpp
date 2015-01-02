@@ -1,4 +1,4 @@
-#include "ytest.hpp"
+#include "../ytest.hpp"
 
 Ytest([]{
     test("A", []{
